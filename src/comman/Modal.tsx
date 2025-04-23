@@ -1,5 +1,5 @@
 
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import { Modal, Button, Tabs, Tab, Form, Col, Row } from 'react-bootstrap';
 
 function ModalPop({ show, handleClose }: any) {
