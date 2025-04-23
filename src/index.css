@@ -30,7 +30,7 @@ a{
   color: white;
   font-size: 12px;
   i{
-     font-size: 16px;
+  font-size: 16px;
      line-height: 16px;
   }
 }
@@ -43,13 +43,13 @@ a{
      position: absolute;
      content: '';
      left: 0;
-     background-color: white;
+      background-color: white;
      height: 100%;
      width: 3px;
      opacity: 0;
      visibility: hidden;
      top: 0;
- }
+  }
 }
 .sidebar ul li:hover{
  background-color:#6d56cb;
@@ -82,11 +82,11 @@ a{
  cursor: pointer;
  &.success{
      color: green;
- }
+  }
  &.purple{
      color: #6d56cb;
      background-color: #e6e0fc;
- }
+  }
 }
 .form-select.purple{
  color: #6d56cb;
@@ -113,15 +113,15 @@ a{
 .invoice-back{
  border: 1px dashed rgb(161, 161, 161);
  padding: 10px;
- border-radius: 10px;
+  border-radius: 10px;
 }
 .img-box{
  width: 60%;
 }
 .bg-invoice{
  border-radius: 10px;
- display: flex;
- align-items: center;
+  display: flex;
+  align-items: center;
  justify-content: center;
  background-color: #f6deba;
  height: 600px;
